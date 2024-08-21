@@ -12,6 +12,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
@@ -19,7 +20,7 @@
     
     <title>bose</title>
     <script type="module" crossorigin src="/BOSE/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/BOSE/assets/index-c562cb28.css">
+    <link rel="stylesheet" href="/BOSE/assets/index-360d9cc9.css">
   </head>
   <body>
     <!DOCTYPE html>
@@ -35,9 +36,9 @@
     <header class="header">
         <div class="container header__box">
             <svg width="130" height="15.24" class="header__svg">
-                <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-bose-logo-2"></use>
+                <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-bose-logo-2"></use>
             </svg>
-            <ul class="header__title">
+            <ul class="header__list">
                 <li class="header__item">
                     <a class="header__link" href="#">Characteristics</a>
                 </li>
@@ -68,12 +69,20 @@
 <body>
     <section class="hero">
         <div class="container">
-                <p>Noise cancellation headphones that are capable for a lot of things</p>
-                <p>Up to 20 hours of playback</p>
-                <h1>Headphones Bose NC 700</h1>
-                <button type="button">ORDER</button>
-                <img src="/BOSE/assets/blackheadphones-desctop@1x-bbe95e14.webp" alt="Black Headphones">
-            
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <p class="hero__description">Noise cancellation headphones that are capable for a lot of things</p>
+                    <p class="hero__description2">Up to 20 hours of playback</p>
+                    <div class="hero__block">
+                        <h1 class="hero__title">Headphones Bose NC 700</h1>
+                        <button class="hero__button" type="button">ORDER</button>
+                    </div>
+                </li>
+                <li class="hero__item">
+                    <img class="hero__image" src="/BOSE/assets/blackheadphones-desctop@1x-bbe95e14.webp"
+                        alt="Black Headphones">
+                </li>
+            </ul>
         </div>
     </section>
 </body>
@@ -112,36 +121,36 @@
       <li class="capable__item">
         <p class="capable__text">Ability to receive calls</p>
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
       </li>
       <li class="capable__item">
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
         <p class="capable__text">Rich and powerful sound</p>
       </li>
       <li class="capable__item">
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
         <p class="capable__text">Active noise cancellation option</p>
       </li>
       <li class="capable__item">
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
         <p class="capable__text">Unsurpassed microphone system</p>
       </li>
       <li class="capable__item">
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
         <p class="capable__text">Support of voice assistants</p>
       </li>
       <li class="capable__item">
         <svg class="capable__icon">
-          <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-red-dot"></use>
+          <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-red-dot"></use>
         </svg>
         <p class="capable__text">Bose AR Augmented Reality Audio Platform</p>
       </li>
@@ -285,7 +294,7 @@
     <div class="history__block3">
       <img src="./image/man-desctop@1x.webp" alt="man scientist" />
       <svg class="history__svg">
-        <use href="/BOSE/assets/symbol-defs-2effbb61.svg#icon-untitled"></use>
+        <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-untitled"></use>
       </svg>
       <p class="history__subtitle">
         Never stop dreaming. Always dream of the best, and think about how to
@@ -408,26 +417,69 @@
 
     <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
-    <section>
+    <section class="price">
         <div class="container">
-            <h2>BOSE NC 700</h2>
-            <button type="button"></button>
-            <button type="button"></button>
-            <h3>Availability in stores</h3>
-            <h3>Characteristics</h3>
-            <h3>Payment and delivery methods</h3>
-            <h2>14 999 UAH</h2>
-            <button type="button">ORDER</button>
-            <img src="/BOSE/assets/blackprice-desctop@1x-e6751bec.webp" alt="Black Headphones for sale">
+            <ul class="price__box">
+                <li class="price__item">
+                    <h2 class="price__title">BOSE NC 700</h2>
+                    <button class="price__color-button" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                            <circle cx="35" cy="35" r="35" fill="#1D1D1D" />
+                            <circle cx="35" cy="35" r="34.5" stroke="white" stroke-opacity="0.8" />
+                            <circle cx="35" cy="35" r="26" fill="black" stroke="#DF3D3A" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <button class="price__color-button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="70"
+                            height="70" viewBox="0 0 70 70" fill="none">
+                            <circle cx="35" cy="35" r="35" fill="white" fill-opacity="0.8" />
+                            <circle cx="35" cy="35" r="34.5" stroke="white" stroke-opacity="0.8" />
+                            <circle cx="35" cy="35" r="27" fill="white" fill-opacity="0.8" />
+                        </svg></button>
+                    <ul class="price__list">
+                        <li class="price__faq">
+                            <h3 class="price__text">Availability in stores</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                                fill="none">
+                                <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                    stroke="#DF3D3A" stroke-width="2" />
+                            </svg>
+                        </li>
+                        <li class="price__faq">
+                            <h3 class="price__text">Characteristics</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                                fill="none">
+                                <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                    stroke="#DF3D3A" stroke-width="2" />
+                            </svg>
+                        </li>
+                        <li class="price__faq">
+                            <h3 class="price__text">Payment and delivery methods</h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                                fill="none">
+                                <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
+                                    stroke="#DF3D3A" stroke-width="2" />
+                            </svg>
+                        </li>
+                    </ul>
+                    <h2 class="price__price">14 999 UAH</h2>
+                    <button class="price__button" type="button">ORDER</button>
+                </li>
+                <li class="price__item">
+                    <img class="price__image" src="/BOSE/assets/blackprice-desctop@1x-e6751bec.webp" alt="Black Headphones for sale" />
+                </li>
+            </ul>
         </div>
     </section>
 </body>
+
 </html>
     <section>
     <div class="container">
