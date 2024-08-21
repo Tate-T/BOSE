@@ -20,7 +20,7 @@
     
     <title>bose</title>
     <script type="module" crossorigin src="/BOSE/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/BOSE/assets/index-360d9cc9.css">
+    <link rel="stylesheet" href="/BOSE/assets/index-c4fceb70.css">
   </head>
   <body>
     <!DOCTYPE html>
@@ -35,9 +35,10 @@
 <body>
     <header class="header">
         <div class="container header__box">
-            <svg width="130" height="15.24" class="header__svg">
-                <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-bose-logo-2"></use>
-            </svg>
+            <a class="header__link" href="./index.html">
+                <svg class="header__svg">
+                    <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-bose-logo-2"></use>
+                </svg></a>
             <ul class="header__list">
                 <li class="header__item">
                     <a class="header__link" href="#">Characteristics</a>
@@ -52,6 +53,11 @@
                     <a class="header__link" href="#">Payment and delivery</a>
                 </li>
             </ul>
+            <button burger-modal-open class="header__button">
+                <svg class="header__burger">
+                    <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-hamburger"></use>
+                </svg>
+            </button>
         </div>
     </header>
 </body>
@@ -79,8 +85,15 @@
                     </div>
                 </li>
                 <li class="hero__item">
-                    <img class="hero__image" src="/BOSE/assets/blackheadphones-desctop@1x-bbe95e14.webp"
-                        alt="Black Headphones">
+                    <picture>
+                        <source srcset="/BOSE/assets/blackheadphones-desctop@1x-bbe95e14.webp 1x, /BOSE/assets/blackheadphones-desctop@2x-6115cbfb.webp 2x"
+                          type="image/webp" media=" (min-width: 1200px)" />
+                        <source srcset="/BOSE/assets/blackheadphones-tablet@1x-98e41896.webp 1x, /BOSE/assets/blackheadphones-tablet@2x-210a01cc.webp 2x"
+                          type="image/webp" media=" (min-width: 768px)" />
+                        <source srcset="data:image/webp;base64,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 1x, /BOSE/assets/blackheadphones-phone2x.webp-359035a6.webp 2x"
+                          type="image/webp" media=" (min-width: 320px)" />
+                        <img class="hero__image" src="/BOSE/assets/blackheadphones-desctop@1x-bbe95e14.webp" />
+                      </picture>
                 </li>
             </ul>
         </div>
@@ -427,18 +440,19 @@
 <body>
     <section class="price">
         <div class="container">
+            <h2 class="price__title2">BOSE NC 700</h2>
             <ul class="price__box">
                 <li class="price__item">
                     <h2 class="price__title">BOSE NC 700</h2>
                     <button class="price__color-button" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" fill="none">
                             <circle cx="35" cy="35" r="35" fill="#1D1D1D" />
                             <circle cx="35" cy="35" r="34.5" stroke="white" stroke-opacity="0.8" />
                             <circle cx="35" cy="35" r="26" fill="black" stroke="#DF3D3A" stroke-width="2" />
                         </svg>
                     </button>
-                    <button class="price__color-button" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="70"
-                            height="70" viewBox="0 0 70 70" fill="none">
+                    <button class="price__color-button" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 70 70" fill="none">
                             <circle cx="35" cy="35" r="35" fill="white" fill-opacity="0.8" />
                             <circle cx="35" cy="35" r="34.5" stroke="white" stroke-opacity="0.8" />
                             <circle cx="35" cy="35" r="27" fill="white" fill-opacity="0.8" />
@@ -473,7 +487,18 @@
                     <button class="price__button" type="button">ORDER</button>
                 </li>
                 <li class="price__item">
-                    <img class="price__image" src="/BOSE/assets/blackprice-desctop@1x-e6751bec.webp" alt="Black Headphones for sale" />
+                    <picture>
+                        <source
+                            srcset="/BOSE/assets/blackprice-desctop@1x-e6751bec.webp 1x, /BOSE/assets/blackprice-desctop@2x-bacda530.webp 2x"
+                            type="image/webp" media=" (min-width: 1200px)" />
+                        <source
+                            srcset="/BOSE/assets/blackprice-tablet@1x-c55fbbb3.webp 1x, /BOSE/assets/blackprice-tablet@2x-94543829.webp 2x"
+                            type="image/webp" media=" (min-width: 768px)" />
+                        <source
+                            srcset="data:image/webp;base64,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 1x, /BOSE/assets/blackprice-phone2x.webp-b4429af3.webp 2x"
+                            type="image/webp" media=" (min-width: 320px)" />
+                        <img class="price__image" src="/BOSE/assets/blackprice-desctop@1x-e6751bec.webp" />
+                    </picture>
                 </li>
             </ul>
         </div>
