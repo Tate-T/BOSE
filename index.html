@@ -20,7 +20,7 @@
     
     <title>bose</title>
     <script type="module" crossorigin src="/BOSE/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/BOSE/assets/index-c4fceb70.css">
+    <link rel="stylesheet" href="/BOSE/assets/index-9d1fd678.css">
   </head>
   <body>
     <!DOCTYPE html>
@@ -53,7 +53,7 @@
                     <a class="header__link" href="#">Payment and delivery</a>
                 </li>
             </ul>
-            <button burger-modal-open class="header__button">
+            <button class="header__button js-open-menu" >
                 <svg class="header__burger">
                     <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-hamburger"></use>
                 </svg>
@@ -460,7 +460,7 @@
                     <ul class="price__list">
                         <li class="price__faq">
                             <h3 class="price__text">Availability in stores</h3>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="price__svg" width="20" height="20" viewBox="0 0 22 23"
                                 fill="none">
                                 <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
                                     stroke="#DF3D3A" stroke-width="2" />
@@ -468,7 +468,7 @@
                         </li>
                         <li class="price__faq">
                             <h3 class="price__text">Characteristics</h3>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="price__svg" width="20" height="20" viewBox="0 0 22 23"
                                 fill="none">
                                 <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
                                     stroke="#DF3D3A" stroke-width="2" />
@@ -476,7 +476,7 @@
                         </li>
                         <li class="price__faq">
                             <h3 class="price__text">Payment and delivery methods</h3>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 23"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="price__svg" width="20" height="20" viewBox="0 0 22 23"
                                 fill="none">
                                 <path d="M1 21.4062L21 1.40625M21 1.40625L1 1.40625M21 1.40625L21 21.4062"
                                     stroke="#DF3D3A" stroke-width="2" />
@@ -557,6 +557,35 @@
   </div>
 </section>
 
+    <div class="menu js-menu-container">
+    <div class=" container menu__container">
+      <div class="menu__header">
+        <button class="menu__close js-close-menu button-close" type="button">
+          <svg class="menu__close-svg">
+            <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-close-large"></use>
+        </svg>
+      </button>
+      <a href="#" class="menu__link"><svg class="menu__svg">
+        <use href="/BOSE/assets/symbol-defs-a94d518f.svg#icon-bose-logo-2"></use>
+    </svg></a>
+  </div>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Characteristics</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">History</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Reviews</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Payment and delivery</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
     
   </body>
 </html>
